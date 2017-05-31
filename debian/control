@@ -1,0 +1,12 @@
+Source: ros-jade-pyros-msgs
+Section: misc
+Priority: extra
+Maintainer: AlexV <alexandre.vincent@yujinrobot.com>
+Build-Depends: debhelper (>= 9.0.0), python-pytest (>= 2.5.1), python-six (>= 1.5.2), ros-jade-catkin (>= 0.6.18), ros-jade-catkin-pip (>= 0.2.0), ros-jade-hypothesis (>= 3.0.1), ros-jade-marshmallow (>= 2.9.1), ros-jade-message-generation (>= 0.2.10), ros-jade-pyros-test (>= 0.0.6), ros-jade-pyros-utils (>= 0.1.3), ros-jade-roslint (>= 0.10.0), ros-jade-rospy (>= 1.11.19), ros-jade-std-msgs (>= 0.5.9)
+Homepage: http://www.ros.org/wiki/rocon_tools
+Standards-Version: 3.9.2
+
+Package: ros-jade-pyros-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-pytest (>= 2.5.1), python-six (>= 1.5.2), ros-jade-hypothesis (>= 3.0.1), ros-jade-marshmallow (>= 2.9.1), ros-jade-message-runtime (>= 0.4.12), ros-jade-pyros-utils (>= 0.1.3), ros-jade-rospy (>= 1.11.19), ros-jade-std-msgs (>= 0.5.9)
+Description: Pyros messages and services definition
